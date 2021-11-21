@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.203">
+    <testcase classname="US001 register sayfasi kayit olusturma" name="TC005 Kaydın başarı ile kardedildigi kontrol edilir" time="15.839">
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="135.627">
     <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC001 Navbar'da bulunan elementlerin gorurunurlugu" time="8.413">
         <system-out>
             <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And homeLink görünürlüğü kontrol edildi.....................................passed
-And roomsLink görünürlüğü kontrol edildi....................................passed
-And restaurantLink görünürlüğü kontrol edildi...............................passed
-And aboutLink görünürlüğü kontrol edildi....................................passed
-And blogLink görünürlüğü kontrol edildi.....................................passed
-And contactLink görünürlüğü kontrol edildi..................................passed
-And loginLink görünürlüğü kontrol edildi....................................passed
+And login linkine tiklar....................................................passed
+And Login sayfasındaki creat a new account butonuna tiklandi................passed
+And Register sayfasına ulasıldı ve Faker clasından üretilen  Kullanıcı adı gönderildi.passed
+And Faker clasından üretilen Password gönderildi............................passed
+And Faker clasından üretilen Email gönderildi...............................passed
+And Faker clasından üretilen İsim-soyisim gönderildi........................passed
+And Faker clasından üretilen Telefon gönderildi.............................passed
+And SSN gönderildi..........................................................passed
+And Ehliyet gönderildi......................................................passed
+And Ülke seçildi............................................................passed
+And Eyalet seçildi..........................................................passed
+And Adres gönderildi........................................................passed
+And Meslek gönderildi.......................................................passed
+And Doğum tarihi gönderildi.................................................passed
+And Save Buttonuna tiklandi.................................................passed
+And Alert içindeki başarı ile kaydedildi mesajı görüldü.....................passed
+And Ok Buttonuna tiklandi...................................................passed
 And Sayfayi kapatir.........................................................passed
 ]]>
         </system-out>

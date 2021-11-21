@@ -3,20 +3,25 @@
     "line": 2,
     "elements": [
       {
+        "start_timestamp": "2021-11-21T14:27:51.323Z",
+        "line": 64,
+        "name": "TC005 Kaydın başarı ile kardedildigi kontrol edilir",
         "start_timestamp": "2021-11-21T15:35:01.343Z",
         "line": 5,
         "name": "TC001 Navbar\u0027da bulunan elementlerin gorurunurlugu",
         "description": "",
+        "id": "us001-register-sayfasi-kayit-olusturma;tc005-kaydın-başarı-ile-kardedildigi-kontrol-edilir",
         "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc001-navbar-da-bulunan-elementlerin-gorurunurlugu",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+              "duration": 10047135700,
               "duration": 7517890500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 66,
             "name": "kullanici hotel sayfasına gider",
             "match": {
               "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
@@ -25,6 +30,115 @@
           },
           {
             "result": {
+              "duration": 928853000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "login linkine tiklar",
+            "match": {
+              "location": "stepdefinitions.US003Step.login_linkine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1012616000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Login sayfasındaki creat a new account butonuna tiklandi",
+            "match": {
+              "location": "stepdefinitions.US003Step.loginSayfasındakiCreatANewAccountButonunaTiklandi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 387708400,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Register sayfasına ulasıldı ve Faker clasından üretilen  Kullanıcı adı gönderildi",
+            "match": {
+              "location": "stepdefinitions.US003Step.registerSayfasınaUlasıldıVeFakerClasındanÜretilenKullanıcıAdıGönderildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118785500,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Faker clasından üretilen Password gönderildi",
+            "match": {
+              "location": "stepdefinitions.US003Step.fakerClasındanÜretilenPasswordGönderildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215860300,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Faker clasından üretilen Email gönderildi",
+            "match": {
+              "location": "stepdefinitions.US003Step.fakerClasındanÜretilenEmailGönderildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172422900,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Faker clasından üretilen İsim-soyisim gönderildi",
+            "match": {
+              "location": "stepdefinitions.US003Step.fakerClasındanÜretilenİsimSoyisimGönderildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181390300,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Faker clasından üretilen Telefon gönderildi",
+            "match": {
+              "location": "stepdefinitions.US003Step.fakerClasındanÜretilenTelefonGönderildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122591200,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "SSN gönderildi",
+            "match": {
+              "location": "stepdefinitions.US003Step.ssnGönderildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99666700,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Ehliyet gönderildi",
+            "match": {
+              "location": "stepdefinitions.US003Step.ehliyetGönderildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192364700,
               "duration": 51290200,
               "status": "passed"
             },
@@ -38,81 +152,100 @@
           {
             "result": {
               "duration": 28786300,
+              "duration": 462271000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "roomsLink görünürlüğü kontrol edildi",
+            "line": 77,
+            "name": "Eyalet seçildi",
             "match": {
-              "location": "stepdefinitions.US001Step.roomslinkGörünürlüğüKontrolEdildi()"
+              "location": "stepdefinitions.US003Step.eyaletSeçildi()"
             },
             "keyword": "And "
           },
           {
             "result": {
+              "duration": 99667100,
               "duration": 28108300,
               "status": "passed"
             },
-            "line": 10,
-            "name": "restaurantLink görünürlüğü kontrol edildi",
+            "line": 78,
+            "name": "Adres gönderildi",
             "match": {
-              "location": "stepdefinitions.US001Step.restaurantlinkGörünürlüğüKontrolEdildi()"
+              "location": "stepdefinitions.US003Step.adresGönderildi()"
             },
             "keyword": "And "
           },
           {
             "result": {
+              "duration": 79732800,
               "duration": 32231300,
               "status": "passed"
             },
-            "line": 11,
-            "name": "aboutLink görünürlüğü kontrol edildi",
+            "line": 79,
+            "name": "Meslek gönderildi",
             "match": {
-              "location": "stepdefinitions.US001Step.aboutlinkGörünürlüğüKontrolEdildi()"
+              "location": "stepdefinitions.US003Step.meslekGönderildi()"
             },
             "keyword": "And "
           },
           {
             "result": {
+              "duration": 147504400,
               "duration": 30402900,
               "status": "passed"
             },
-            "line": 12,
-            "name": "blogLink görünürlüğü kontrol edildi",
+            "line": 80,
+            "name": "Doğum tarihi gönderildi",
             "match": {
-              "location": "stepdefinitions.US001Step.bloglinkGörünürlüğüKontrolEdildi()"
+              "location": "stepdefinitions.US003Step.doğumTarihiGönderildi()"
             },
             "keyword": "And "
           },
           {
             "result": {
+              "duration": 106849400,
               "duration": 30627600,
               "status": "passed"
             },
-            "line": 13,
-            "name": "contactLink görünürlüğü kontrol edildi",
+            "line": 81,
+            "name": "Save Buttonuna tiklandi",
             "match": {
-              "location": "stepdefinitions.US001Step.contactlinkGörünürlüğüKontrolEdildi()"
+              "location": "stepdefinitions.US003Step.saveButtonunaTiklandi()"
             },
             "keyword": "And "
           },
           {
             "result": {
+              "duration": 382033400,
               "duration": 32100200,
               "status": "passed"
             },
-            "line": 14,
-            "name": "loginLink görünürlüğü kontrol edildi",
+            "line": 82,
+            "name": "Alert içindeki başarı ile kaydedildi mesajı görüldü",
             "match": {
-              "location": "stepdefinitions.US001Step.loginlinkGörünürlüğüKontrolEdildi()"
+              "location": "stepdefinitions.US003Step.alertIçindekiBaşarıIleKaydedildiMesajıGörüldü()"
             },
             "keyword": "And "
           },
           {
             "result": {
+              "duration": 46842200,
               "duration": 609886200,
               "status": "passed"
             },
-            "line": 15,
+            "line": 83,
+            "name": "Ok Buttonuna tiklandi",
+            "match": {
+              "location": "stepdefinitions.US003Step.okButtonunaTiklandi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 902927300,
+              "status": "passed"
+            },
+            "line": 84,
             "name": "Sayfayi kapatir",
             "match": {
               "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
@@ -122,10 +255,10 @@
         ],
         "tags": [
           {
-            "name": "@US001"
+            "name": "@US003"
           },
           {
-            "name": "@TC001"
+            "name": "@TC005"
           }
         ]
       },
@@ -782,13 +915,17 @@
       }
     ],
     "name": "US001 hotel anasayfa objelerinin kontrolu",
+      }
+    ],
+    "name": "US001 register sayfasi kayit olusturma",
     "description": "",
+    "id": "us001-register-sayfasi-kayit-olusturma",
     "id": "us001-hotel-anasayfa-objelerinin-kontrolu",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US001.feature",
+    "uri": "file:src/test/resources/features/US003.feature",
     "tags": [
       {
-        "name": "@US001",
+        "name": "@US003",
         "type": "Tag",
         "location": {
           "line": 1,
