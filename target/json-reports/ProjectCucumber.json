@@ -1,0 +1,149 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-21T13:19:06.107Z",
+        "line": 5,
+        "name": "TC001 Navbar\u0027da bulunan elementlerin",
+        "description": "",
+        "id": "us001-hotel-anasayfa;tc001-navbar-da-bulunan-elementlerin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14671779000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici hotel sayfasına gider",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47784000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "homeLink görünürlüğü kontrol edildi",
+            "match": {
+              "location": "stepdefinitions.US001Step.görünürlüğü_kontrol_edildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30872500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "roomsLink görünürlüğü kontrol edildi",
+            "match": {
+              "location": "stepdefinitions.US001Step.roomslinkGörünürlüğüKontrolEdildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28175200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "restaurantLink görünürlüğü kontrol edildi",
+            "match": {
+              "location": "stepdefinitions.US001Step.restaurantlinkGörünürlüğüKontrolEdildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31554600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "aboutLink görünürlüğü kontrol edildi",
+            "match": {
+              "location": "stepdefinitions.US001Step.aboutlinkGörünürlüğüKontrolEdildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31316900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "blogLink görünürlüğü kontrol edildi",
+            "match": {
+              "location": "stepdefinitions.US001Step.bloglinkGörünürlüğüKontrolEdildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30503900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "contactLink görünürlüğü kontrol edildi",
+            "match": {
+              "location": "stepdefinitions.US001Step.contactlinkGörünürlüğüKontrolEdildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28706000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "loginLink görünürlüğü kontrol edildi",
+            "match": {
+              "location": "stepdefinitions.US001Step.loginlinkGörünürlüğüKontrolEdildi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 615878700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US001"
+          },
+          {
+            "name": "@TC001"
+          }
+        ]
+      }
+    ],
+    "name": "US001 hotel anasayfa",
+    "description": "",
+    "id": "us001-hotel-anasayfa",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US001.feature",
+    "tags": [
+      {
+        "name": "@US001",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

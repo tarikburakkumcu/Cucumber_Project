@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.665">
+    <testcase classname="US001 hotel anasayfa" name="TC001 Navbar'da bulunan elementlerin" time="15.566">
+        <system-out>
+            <![CDATA[When kullanici hotel sayfasına gider........................................passed
+And homeLink görünürlüğü kontrol edildi.....................................passed
+And roomsLink görünürlüğü kontrol edildi....................................passed
+And restaurantLink görünürlüğü kontrol edildi...............................passed
+And aboutLink görünürlüğü kontrol edildi....................................passed
+And blogLink görünürlüğü kontrol edildi.....................................passed
+And contactLink görünürlüğü kontrol edildi..................................passed
+And loginLink görünürlüğü kontrol edildi....................................passed
+And Sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
