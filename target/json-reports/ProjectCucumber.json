@@ -3,17 +3,17 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-21T13:19:06.107Z",
+        "start_timestamp": "2021-11-21T15:35:01.343Z",
         "line": 5,
-        "name": "TC001 Navbar\u0027da bulunan elementlerin",
+        "name": "TC001 Navbar\u0027da bulunan elementlerin gorurunurlugu",
         "description": "",
-        "id": "us001-hotel-anasayfa;tc001-navbar-da-bulunan-elementlerin",
+        "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc001-navbar-da-bulunan-elementlerin-gorurunurlugu",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 14671779000,
+              "duration": 7517890500,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 47784000,
+              "duration": 51290200,
               "status": "passed"
             },
             "line": 8,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 30872500,
+              "duration": 28786300,
               "status": "passed"
             },
             "line": 9,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 28175200,
+              "duration": 28108300,
               "status": "passed"
             },
             "line": 10,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 31554600,
+              "duration": 32231300,
               "status": "passed"
             },
             "line": 11,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 31316900,
+              "duration": 30402900,
               "status": "passed"
             },
             "line": 12,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 30503900,
+              "duration": 30627600,
               "status": "passed"
             },
             "line": 13,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 28706000,
+              "duration": 32100200,
               "status": "passed"
             },
             "line": 14,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 615878700,
+              "duration": 609886200,
               "status": "passed"
             },
             "line": 15,
@@ -128,11 +128,662 @@
             "name": "@TC001"
           }
         ]
+      },
+      {
+        "start_timestamp": "2021-11-21T15:35:09.768Z",
+        "line": 18,
+        "name": "TC002 Navbar\u0027da bulunan elementlerin kullanimi",
+        "description": "",
+        "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc002-navbar-da-bulunan-elementlerin-kullanimi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5154424100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "kullanici hotel sayfasına gider",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 434752600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "homeLink tıklar",
+            "match": {
+              "location": "stepdefinitions.US001Step.homelinkTıklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6774981300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "roomsLink tıklar",
+            "match": {
+              "location": "stepdefinitions.US001Step.rooms_link_tıklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4173682800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "restaurantLink tıklar",
+            "match": {
+              "location": "stepdefinitions.US001Step.restaurant_link_tıklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353785600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "aboutLink tıklar",
+            "match": {
+              "location": "stepdefinitions.US001Step.about_link_tıklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 503100700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "blogLink tıklar",
+            "match": {
+              "location": "stepdefinitions.US001Step.blog_link_tıklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2955196900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "contactLink tıklar",
+            "match": {
+              "location": "stepdefinitions.US001Step.contact_link_tıklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2098711500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "loginLink tıklar",
+            "match": {
+              "location": "stepdefinitions.US001Step.login_link_tıklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 620610900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US001"
+          },
+          {
+            "name": "@TC002"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T15:35:32.853Z",
+        "line": 30,
+        "name": "TC003 CHECK-IN DATE, CHECK-OUT DATE, ROOM, CUSTOMER elementleri gorunur olmali.",
+        "description": "",
+        "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc003-check-in-date--check-out-date--room--customer-elementleri-gorunur-olmali.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6552761500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "kullanici hotel sayfasına gider",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48528700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "CHECK-IN DATE elementine tiklanir ve giris tarihi icin secim yapilir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.checkINDATEElementineTiklanirVeGirisTarihiIcinSecimYapilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29604300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "CHECK-OUT DATE elementine tiklanir ve cikis tarihi icin secim yapilir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.checkOUTDATEElementineTiklanirVeCikisTarihiIcinSecimYapilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28112100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "ROOM elementine tiklanir ve dropdown menuden uygun, room type secilir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.roomElementineTiklanirVeDropdownMenudenUygunRoomTypeSecilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31371900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "CUSTOMER elemtine tiklanir ve dropdown menuden yetiskin kisi sayisi sacilir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.customerElemtineTiklanirVeDropdownMenudenYetiskinKisiSayisiSacilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 602030600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US001"
+          },
+          {
+            "name": "@TC003"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T15:35:40.154Z",
+        "line": 39,
+        "name": "TC004 Check Availability butonu kullaniciyi sectigi kriterlere gore uygun sayfaya yonlendirmeli.",
+        "description": "",
+        "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc004-check-availability-butonu-kullaniciyi-sectigi-kriterlere-gore-uygun-sayfaya-yonlendirmeli.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5314768600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "kullanici hotel sayfasına gider",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2660310500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Kullanici uygun kriterleri sectikten sonra Check Availabilitybutonuna tiklar.",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullaniciUygunKriterleriSectiktenSonraCheckAvailabilitybutonunaTiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 625396300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US001"
+          },
+          {
+            "name": "@TC004"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T15:35:48.762Z",
+        "line": 45,
+        "name": "TC005 Welcome to our hotel bolumu gorunur olmali",
+        "description": "",
+        "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc005-welcome-to-our-hotel-bolumu-gorunur-olmali",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5107915000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "kullanici hotel sayfasına gider",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2497654700,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Main Page\u0027de ilgili bolum gorulene kadar scrolldown yapilir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.mainPageDeIlgiliBolumGoruleneKadarScrolldownYapilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603510100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US001"
+          },
+          {
+            "name": "@TC005"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T15:35:56.977Z",
+        "line": 51,
+        "name": "TC006 Our Rooms bolumu ve icerisindeki elementler gorunur ve tiklanabilir olmali.",
+        "description": "",
+        "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc006-our-rooms-bolumu-ve-icerisindeki-elementler-gorunur-ve-tiklanabilir-olmali.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6540113300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "kullanici hotel sayfasına gider",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2077701000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Main Page\u0027de ourRooms bolum gorulene kadar scrolldown yapilir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.mainPageDeOurRoomsBolumGoruleneKadarScrolldownYapilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12734149600,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Our Rooms bolumundeki birinciden altinci oda secenegine kadar tiklanir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.ourRoomsBolumundekiBirincidenAltinciOdaSecenegineKadarTiklanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 616443100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US001"
+          },
+          {
+            "name": "@TC006"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T15:36:18.949Z",
+        "line": 58,
+        "name": "TC007 Misafirlerin yorumlarinin bulundugu slider bolumu gorunur ve altindaki yonlendirme butonlari tiklanabilir olmali.",
+        "description": "",
+        "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc007-misafirlerin-yorumlarinin-bulundugu-slider-bolumu-gorunur-ve-altindaki-yonlendirme-butonlari-tiklanabilir-olmali.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12916185300,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "kullanici hotel sayfasına gider",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2088105600,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Main Page\u0027de yorum bolum gorulene kadar scrolldown yapilir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.mainPageDeYorumBolumGoruleneKadarScrolldownYapilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5729754800,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Musteri yorumlari bolumunde bulunan bes slider butonuna sirasiyla tiklanir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.musteriYorumlariBolumundeBulunanBesSliderButonunaSirasiylaTiklanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 620275300,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US001"
+          },
+          {
+            "name": "@TC007"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T15:36:40.311Z",
+        "line": 66,
+        "name": "TC008 Recent Blog bolumu gorunur ve icerisindeki elementler tiklanabilir olmali.",
+        "description": "",
+        "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc008-recent-blog-bolumu-gorunur-ve-icerisindeki-elementler-tiklanabilir-olmali.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6111367200,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "kullanici hotel sayfasına gider",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2149056000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Main Page\u0027de blog bolum gorulene kadar scrolldown yapilir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.mainPageDeBlogBolumGoruleneKadarScrolldownYapilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216025000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Recent Blog bolumundeki birinciden altinci blog yazisina kadar tiklanir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.recentBlogBolumundekiBirincidenAltinciBlogYazisinaKadarTiklanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 623893100,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US001"
+          },
+          {
+            "name": "@TC008"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T15:36:49.415Z",
+        "line": 74,
+        "name": "TC009 Instagram kismi gorunur ve icerisindeki elementler tiklanabilir olmali.",
+        "description": "",
+        "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc009-instagram-kismi-gorunur-ve-icerisindeki-elementler-tiklanabilir-olmali.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6411640300,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "kullanici hotel sayfasına gider",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2104888700,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Main Page\u0027de instagram bolum gorulene kadar scrolldown yapilir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.mainPageDeInstagramBolumGoruleneKadarScrolldownYapilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1675279300,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Instagram bolumundeki fotograflara sirasiyla tiklanir Next ve Previous elementlerine tiklanir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.ınstagramBolumundekiFotograflaraSirasiylaTiklanirNextVePreviousElementlerineTiklanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 622841600,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US001"
+          },
+          {
+            "name": "@TC009"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T15:37:00.233Z",
+        "line": 82,
+        "name": "TC010 Sayfanin en altinda bulunan footer bolumundeki Concort Hotel, Useful Links, Privacy ve Have a Questions? kisimlari gorunur olmali.",
+        "description": "",
+        "id": "us001-hotel-anasayfa-objelerinin-kontrolu;tc010-sayfanin-en-altinda-bulunan-footer-bolumundeki-concort-hotel--useful-links--privacy-ve-have-a-questions?-kisimlari-gorunur-olmali.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13301549100,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "kullanici hotel sayfasına gider",
+            "match": {
+              "location": "stepdefinitions.US001Step.kullanici_hotel_sayfasına_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2217576800,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Main Page\u0027de sayfanin sonuna kadar scrolldown yapilir.",
+            "match": {
+              "location": "stepdefinitions.US001Step.mainPageDeSayfaninSonunaKadarScrolldownYapilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1111029900,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.US001Step.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US001"
+          },
+          {
+            "name": "@TC0010"
+          }
+        ]
       }
     ],
-    "name": "US001 hotel anasayfa",
+    "name": "US001 hotel anasayfa objelerinin kontrolu",
     "description": "",
-    "id": "us001-hotel-anasayfa",
+    "id": "us001-hotel-anasayfa-objelerinin-kontrolu",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/US001.feature",
     "tags": [
