@@ -1,114 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.203">
-    <testcase classname="US001 register sayfasi kayit olusturma" name="TC005 Kaydın başarı ile kardedildigi kontrol edilir" time="15.839">
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="135.627">
-    <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC001 Navbar'da bulunan elementlerin gorurunurlugu" time="8.413">
-        <system-out>
-            <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And login linkine tiklar....................................................passed
-And Login sayfasındaki creat a new account butonuna tiklandi................passed
-And Register sayfasına ulasıldı ve Faker clasından üretilen  Kullanıcı adı gönderildi.passed
-And Faker clasından üretilen Password gönderildi............................passed
-And Faker clasından üretilen Email gönderildi...............................passed
-And Faker clasından üretilen İsim-soyisim gönderildi........................passed
-And Faker clasından üretilen Telefon gönderildi.............................passed
-And SSN gönderildi..........................................................passed
-And Ehliyet gönderildi......................................................passed
-And Ülke seçildi............................................................passed
-And Eyalet seçildi..........................................................passed
-And Adres gönderildi........................................................passed
-And Meslek gönderildi.......................................................passed
-And Doğum tarihi gönderildi.................................................passed
-And Save Buttonuna tiklandi.................................................passed
-And Alert içindeki başarı ile kaydedildi mesajı görüldü.....................passed
-And Ok Buttonuna tiklandi...................................................passed
-And Sayfayi kapatir.........................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.179">
+    <testcase classname="US004 register sayfasi kayit olusturma" name="TC001 Anasayfadan login sayfasina gecip login olduktan sonra otelleri listeleyip addHotel linkine tıklanmas" time="0.036">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When anasayfadan login yapılarak istenen sayfaya gidildi....................undefined
+And hotel management linkine tıklandı.......................................skipped
+And hotel list linkine tıklandı.............................................skipped
+And addHotel  linkine tıklandı..............................................skipped
 ]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC002 Navbar'da bulunan elementlerin kullanimi" time="23.075">
-        <system-out>
-            <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And homeLink tıklar.........................................................passed
-And roomsLink tıklar........................................................passed
-And restaurantLink tıklar...................................................passed
-And aboutLink tıklar........................................................passed
-And blogLink tıklar.........................................................passed
-And contactLink tıklar......................................................passed
-And loginLink tıklar........................................................passed
-And Sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC003 CHECK-IN DATE, CHECK-OUT DATE, ROOM, CUSTOMER elementleri gorunur olmali." time="7.294">
-        <system-out>
-            <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And CHECK-IN DATE elementine tiklanir ve giris tarihi icin secim yapilir....passed
-And CHECK-OUT DATE elementine tiklanir ve cikis tarihi icin secim yapilir...passed
-And ROOM elementine tiklanir ve dropdown menuden uygun, room type secilir...passed
-And CUSTOMER elemtine tiklanir ve dropdown menuden yetiskin kisi sayisi sacilir..passed
-And Sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC004 Check Availability butonu kullaniciyi sectigi kriterlere gore uygun sayfaya yonlendirmeli." time="8.602">
-        <system-out>
-            <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And Kullanici uygun kriterleri sectikten sonra Check Availabilitybutonuna tiklar..passed
-And Sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC005 Welcome to our hotel bolumu gorunur olmali" time="8.21">
-        <system-out>
-            <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And Main Page'de ilgili bolum gorulene kadar scrolldown yapilir.............passed
-And Sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC006 Our Rooms bolumu ve icerisindeki elementler gorunur ve tiklanabilir olmali." time="21.969">
-        <system-out>
-            <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And Main Page'de ourRooms bolum gorulene kadar scrolldown yapilir...........passed
-And Our Rooms bolumundeki birinciden altinci oda secenegine kadar tiklanir..passed
-And Sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC007 Misafirlerin yorumlarinin bulundugu slider bolumu gorunur ve altindaki yonlendirme butonlari tiklanabilir olmali." time="21.356">
-        <system-out>
-            <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And Main Page'de yorum bolum gorulene kadar scrolldown yapilir..............passed
-And Musteri yorumlari bolumunde bulunan bes slider butonuna sirasiyla tiklanir..passed
-And Sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC008 Recent Blog bolumu gorunur ve icerisindeki elementler tiklanabilir olmali." time="9.101">
-        <system-out>
-            <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And Main Page'de blog bolum gorulene kadar scrolldown yapilir...............passed
-And Recent Blog bolumundeki birinciden altinci blog yazisina kadar tiklanir..passed
-And Sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC009 Instagram kismi gorunur ve icerisindeki elementler tiklanabilir olmali." time="10.814">
-        <system-out>
-            <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And Main Page'de instagram bolum gorulene kadar scrolldown yapilir..........passed
-And Instagram bolumundeki fotograflara sirasiyla tiklanir Next ve Previous elementlerine tiklanir..passed
-And Sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US001 hotel anasayfa objelerinin kontrolu" name="TC010 Sayfanin en altinda bulunan footer bolumundeki Concort Hotel, Useful Links, Privacy ve Have a Questions? kisimlari gorunur olmali." time="16.63">
-        <system-out>
-            <![CDATA[When kullanici hotel sayfasına gider........................................passed
-And Main Page'de sayfanin sonuna kadar scrolldown yapilir...................passed
-And Sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>
